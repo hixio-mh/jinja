@@ -10,7 +10,7 @@ appdirs==1.4.4
     # via virtualenv
 attrs==21.2.0
     # via pytest
-babel==2.9.1
+babel==2.12.1
     # via sphinx
 certifi==2020.12.5
     # via requests
@@ -40,10 +40,10 @@ jinja2==3.0.1
     # via sphinx
 markupsafe==2.0.1
     # via jinja2
-mypy-extensions==0.4.3
-    # via mypy
 mypy==0.812
     # via -r requirements/typing.in
+mypy-extensions==0.4.3
+    # via mypy
 nodeenv==1.6.0
     # via pre-commit
 packaging==20.9
@@ -74,8 +74,6 @@ pyparsing==2.4.7
     # via packaging
 pytest==6.2.4
     # via -r requirements/tests.in
-pytz==2021.1
-    # via babel
 pyyaml==5.4.1
     # via pre-commit
 requests==2.25.1
@@ -86,14 +84,14 @@ six==1.16.0
     #   virtualenv
 snowballstemmer==2.1.0
     # via sphinx
-sphinx-issues==1.2.0
-    # via -r requirements/docs.in
 sphinx==4.0.2
     # via
     #   -r requirements/docs.in
     #   pallets-sphinx-themes
     #   sphinx-issues
     #   sphinxcontrib-log-cabinet
+sphinx-issues==1.2.0
+    # via -r requirements/docs.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
